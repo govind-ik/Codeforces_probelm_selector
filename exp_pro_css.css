@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(33, 31, 31);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.top-icons {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.problem, .github-image {
+    margin-right: 20px;
+    cursor: pointer;
+    color: hsl(200, 20%, 97%);
+}
+
+.bar {
+    margin-right: 20px;
+    color: hsl(200, 20%, 97%);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-container i {
+    color: gray;
+    padding: 0 10px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.searchbox::placeholder {
+    color: gray;
+}
+
+.search-button {
+    background-color: transparent;
+    color: gray;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.search-button:hover {
+    color: white;
+}
+
+.username-status {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.rating-box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rating-box input, .question {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.rating-box input:focus, .question:focus {
+    border-color: #4CAF50;
+}
+
+.rating-box input:not(:placeholder-shown),
+.question:not(:placeholder-shown) {
+    color: white;
+}
+
+.fetch-problems-btn {
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.fetch-problems-btn:hover {
+    color: white;
+    border-color: white;
+}
+
+.fetch-problems-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.problem-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.problem-item {
+    margin-bottom: 10px;
+}
+
+.problem-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.problem-item a:hover {
+    text-decoration: underline;
+}
+
+.input-container:focus-within {
+    border-color: blue; /* Make border blue on focus */
+}
+.rating-box:hover{
+    border-color: blue;
+}
+
+/* Validation styles remain unchanged */
