@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces Problem Selector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="exp_pro_css.css">
+</head>
+<body class="main_body">
+    <div class="top-icons">
+        <div class="problem home-button">
+            <a> <i class="fa-solid fa-house-user" style="color: hsl(200, 20%, 97%);"></i> </a>
+            Home
+        </div>
+        <div class="bar"> | </div>
+        <div class="github-image">
+            <a href="https://github.com/govind-ik/learning" target="_blank">
+                <i class="fa-brands fa-github fa-lg" style="color: hsl(200, 7%, 92%);"></i>
+            </a>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="input-container">
+            <i class="fa-solid fa-magnifying-glass" style="color: gray;"></i>
+            <input class="searchbox js-username" type="text" placeholder="Enter Codeforces Usernames (separate with ;)">
+            <button class="search-button">Enter</button>
+        </div>
+    </div>
+    <div class="username-status"></div>
+   
+    <div class="flex" style="margin-top: 20px;">
+        <div class="rating-box">
+            <div>Difficulty :</div>
+            <input type="text" placeholder="min rating" class="minrating" disabled>
+            <div>-</div>
+            <input type="text" placeholder="max rating" class="maxrating" disabled>
+        </div>
+        <input type="text" placeholder="No. of questions" class="question" disabled>
+        <button class="fetch-problems-btn" disabled>Fetch Problems</button>
+    </div>
+   
+    <div class="problem-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
