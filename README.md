@@ -6,11 +6,11 @@ A Codeforces Problem Selector tool designed to help competitive programmers prac
 
 Features
 
-    Input multiple Codeforces handles to collaboratively practice.
-    Set a difficulty range to filter problems.
-    Specify the number of problems you wish to practice.
-    Ensures problems shown are unsolved by all provided users.
-    Great for individual practice, competitive sessions, or friendly challenges.
+    1.Input multiple Codeforces handles to collaboratively practice.
+    2.Set a difficulty range to filter problems.
+    3.Specify the number of problems you wish to practice.
+    4.Ensures problems shown are unsolved by all provided users.
+    5.Great for individual practice, competitive sessions, or friendly challenges.
 
 How It Works
 
